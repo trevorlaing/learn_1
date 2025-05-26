@@ -26,6 +26,7 @@ def bubble_sort_desc(List):
             break
 
     return List
+
 listed = [64, 34, 25, 12, 22, 11, 90]
 print("Sorted array is:", bubble_sort(listed))
 print("Sorted array in descending order is:", bubble_sort_desc(listed))
